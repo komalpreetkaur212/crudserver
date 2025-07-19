@@ -10,7 +10,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://komalpreetkaur11466:komal11466@cluster0.ljbxjzk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/mydb', {
+mongoose.connect('mongodb+srv://komalpreetkaur11466:komal11466@cluster0.ljbxjzk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
